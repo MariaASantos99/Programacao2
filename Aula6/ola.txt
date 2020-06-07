@@ -1,0 +1,26 @@
+Mover 4 discos de A para C usando B:
+	Mover 3 de A para B usando C
+	Mover disco 4 de A para C
+	Mover 3 de B para C usando A
+
+Mover 3 de A para B usando C:
+	Mover 2 de A para C usando B
+	Mover disco 3 de A para B
+	Mover 2 de C para B usando A
+
+Mover N de X para Z usando Y:
+	Mover N-1 de X para Y usando Z
+	Mover disco N de X para Z
+	Mover N-1 de Y para Z usando X
+
+Aula(31-0304-2020)
+F(0) = 0
+F(1) = 1
+F(n) = F(n-1)+F(n-2)
+Fibonaci:
+0, 1, 1, 2, 3, 5, 8, 13, 
+
+System.arraycopy(....) 
+
+#Lista Ligada
+Nó = Node;
